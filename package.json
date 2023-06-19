@@ -8,14 +8,16 @@
         "start": "node ."
     },
     "dependencies": {
-        "@fastify/sensible": "5.2.0",
-        "fastify": "^4.17.0",
-        "@fastify/swagger": "7.6.1",
         "@fastify/autoload": "5.6.0",
         "@fastify/cors": "8.2.0",
         "@fastify/formbody": "7.3.0",
         "@fastify/helmet": "10.1.0",
-        "@fastify/under-pressure": "8.2.0"
+        "@fastify/sensible": "5.2.0",
+        "@fastify/swagger": "7.6.1",
+        "@fastify/under-pressure": "8.2.0",
+        "fastify": "^4.17.0",
+        "knex": "^2.4.2",
+        "pg": "^8.11.0"
     },
     "devDependencies": {
         "eslint": "8.28.0",
